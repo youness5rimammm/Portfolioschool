@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Insert</title>
+  <meta name="title" content="Adex">
+  <meta name="description" content="This is a business agency html template made by youness">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <a class="logo-light">Insert</a>
+
+        <a class="logo-dark">Insert</a>
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Adex home">
+          </a>
+      
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+      
+        <ul class="navbar-list">
+          <li><a href="#" class="navbar-link">Accueil</a></li>
+      
+          <li class="dropdown">
+            <a href="#" class="navbar-link dropdown-toggle">Projet ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="index.html" class="dropdown-item">Covoit’Santé</a></li>
+              <li><a href="Optivex.html" class="dropdown-item">Optivex – Optimisation des trajets des livreurs UPSA</a></li>
+              <li><a href="Lilas.html" class="dropdown-item">Lilas – Gestion centralisée des anomalies techniques du campus</a></li>
+              <li><a href="Gwadafood.html" class="dropdown-item"> Gwadafood – Site vitrine pour un service traiteur antillais</a></li>
+              <li><a href="Insert.html" class="dropdown-item"> Insert – Plateforme de gestion des partenaires et événements pour la Mission Locale</a></li>
+            </ul>
+          </li>
+      
+          <li><a href="Insert.html" class="navbar-link">Compétences Techniques</a></li>
+          <li><a href="#" class="navbar-link">Compétences Humaines</a></li>
+        </ul>
+      
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">info@email.com</a>
+          <a href="tel:001234567890" class="contact-link">00 (123) 456 78 90</a>
+        </div>
+      
+        <ul class="social-list">
+          <li><a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-dribbble"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-youtube"></ion-icon></a></li>
+        </ul>
+      </nav>
+      
+
+      <a href="#" class="btn btn-primary">Presentation générale</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-8.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">🚀 Mission</h1>
+
+            <p class="hero-text">
+                Dans le cadre d’un projet en collaboration avec la Mission Locale du Pays du Villeneuvois, j’ai participé au développement d’Insert, une plateforme numérique ayant pour objectif de référencer et gérer tous les partenaires de l’organisme. <br> <br>
+                L’enjeu principal de cette plateforme était d’offrir une visibilité globale sur les différents partenaires, de leur permettre de gérer leurs propres événements, et de centraliser toutes ces informations dans un calendrier et une carte interactive. <br> <br>
+                Chaque partenaire pouvait se connecter à la plateforme, organiser des événements, et les publier afin qu’ils apparaissent automatiquement dans un calendrier partagé et sur une carte interactive utilisant Leaflet. Ce projet visait à faciliter la communication et la coordination entre les différents acteurs impliqués, tout en assurant une meilleure organisation des événements et initiatives locales.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <!-- <a href="#" class="btn btn-primary">Explore Now</a>
+
+              <a href="#" class="btn btn-outline">Contact Us</a> -->
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <!-- <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li> -->
+
+                <!-- <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/hero-slide-2.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+
+                </li> -->
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/banner-3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <!-- <section class="section service" aria-labelledby="service-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label">What We Do?</p>
+
+          <h2 class="h2 section-title">
+            The service we offer is specifically designed to meet your needs.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">24/7 Support</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Secure Payments</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Daily Updates</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Market Research</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section> -->
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-img-3.png" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content"> <br> <br>
+
+            <!-- <p class="section-subtitle" id="about-label">Why Choose Us?</p> -->
+
+            <h2 class="h2 section-title">
+              👨‍💻 Mon rôle dans le projet
+            </h2>
+            <p class="section-text">
+                En tant que développeur full-stack, j’ai contribué activement au développement de Insert, en travaillant sur l’interface utilisateur avec Angular et sur l’API en Java qui permettait la gestion des données. <br> <br>
+                Dans un premier temps, j’ai conçu et développé le front-end avec Angular, en mettant en place une interface moderne, dynamique et intuitive. L’objectif était d’assurer une expérience fluide pour les partenaires, leur permettant d’ajouter facilement des événements, de consulter ceux des autres, et d’interagir avec la carte interactive. <br> <br>
+                J’ai également participé au développement de l’API REST en Java, qui assurait la gestion des utilisateurs, des partenaires et des événements. Cette API était responsable du stockage et de la récupération des données, garantissant un système sécurisé et performant pour gérer les informations des partenaires et des événements. <br> <br>
+                Un des défis majeurs de ce projet a été l’intégration de Leaflet, une bibliothèque JavaScript permettant d’afficher une carte interactive où chaque événement était géolocalisé. J’ai travaillé sur la mise en place de points interactifs permettant aux utilisateurs de visualiser rapidement où et quand chaque événement se déroulait.
+            </p> <br>
+            
+                
+                
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/context-img-3.jpg" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <!-- <p class="section-subtitle" id="feautre-label">Our Solutions</p> -->
+
+            <h2 class="h2 section-title">
+              🏢 Contexte et client
+            </h2>
+
+            <p class="section-text">
+                La Mission Locale du Pays du Villeneuvois accompagne les jeunes dans leur insertion professionnelle et sociale, en collaborant avec de nombreux partenaires locaux (entreprises, associations, institutions). <br> <br>
+Avant la mise en place de Insert, il était difficile d’avoir une vue d’ensemble des partenaires et des événements organisés, ce qui limitait la coordination entre les différents acteurs. Le projet a donc été conçu pour répondre à ce besoin, en proposant une plateforme centralisée où chaque partenaire pouvait gérer ses propres informations et événements en toute autonomie.
+            </p>
+
+            
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+        
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">Case Studies</p>
+
+          <h2 class="h2 section-title">
+            🎯 Objectifs, défis et enjeux
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-7.jpg" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="card-text">
+                    L’objectif principal de Insert était de fournir une solution numérique efficace pour améliorer la gestion et la visibilité des partenaires et des événements locaux. <br> <br>
+                    L’un des principaux défis du projet était de concevoir une plateforme simple et intuitive, permettant aux partenaires de gérer facilement leurs événements et d’interagir avec le calendrier et la carte interactive.                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-8.jpg" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="card-text">
+                    Un autre enjeu était la gestion des accès et des rôles utilisateurs. Certains partenaires avaient des droits spécifiques, comme la création d’événements ou la gestion des informations sur leurs structures. Il a donc fallu implémenter un système d’authentification sécurisé, avec des permissions adaptées à chaque type d’utilisateur.
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-9.jpg" width="560" height="350" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="card-text">
+                    Enfin, l’intégration de Leaflet pour la carte interactive a représenté un défi technique important. Il était nécessaire de permettre aux utilisateurs de localiser leurs événements avec précision, tout en optimisant l’affichage pour éviter les lenteurs et garantir une expérience fluide.
+
+                    
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <section class="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/ANIMATION.jpg" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <!-- <p class="section-subtitle" id="feautre-label">Our Solutions</p> -->
+
+            <h2 class="h2 section-title">
+              ⚙️ Processus de développement
+            </h2>
+
+            <p class="section-subtitle" id="feautre-label">Le développement de Insert a suivi plusieurs étapes clés :</p>
+
+            <p class="section-text">
+                1• <h8 style="color: rgb(0, 0, 0);">Analyse des besoins  </h8> avec la Mission Locale, afin de définir les fonctionnalités essentielles et d’identifier les attentes des partenaires.<br>
+                2• <h8 style="color: rgb(0, 0, 0);">Conception de l’architecture</h8> du projet, en structurant l’application autour d’un front-end Angular et d’une API en Java.<br>
+                3• <h8 style="color: rgb(0, 0, 0);">Développement de l’interface utilisateur</h8> avec Angular, en mettant en place un système d’authentification, un tableau de bord pour gérer les événements, et une carte interactive avec Leaflet. <br>
+                4• <h8 style="color: rgb(0, 0, 0);">Développement de l’API REST en Java,</h8> permettant la gestion des partenaires, des événements, et la communication entre le front-end et la base de données.<br>
+                5• <h8 style="color: rgb(0, 0, 0);">Mise en place du calendrier dynamique</h8> affichant les événements en temps réel avec des options de filtrage et de tri.<br>
+                6• <h8 style="color: rgb(0, 0, 0);">Intégration de Leaflet</h8> pour afficher les événements géolocalisés directement sur une carte interactive.<br>
+                7• <h8 style="color: rgb(0, 0, 0);">Phase de tests et améliorations</h8> afin d’assurer la stabilité et la fluidité de la plateforme.<br>
+
+            </p>
+
+
+            
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/bussnis.jpg" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <!-- <p class="section-subtitle" id="feautre-label">Our Solutions</p> -->
+
+            <h2 class="h2 section-title">
+              🏁 Conclusion et apprentissages
+            </h2>
+
+            <p class="section-text">
+                Le développement de Insert a été une expérience très enrichissante, me permettant de travailler sur un projet complet et concret, impliquant à la fois du développement front-end et back-end. <br> <br>
+Grâce à ce projet, j’ai renforcé mes compétences en Angular, notamment sur la gestion des interfaces dynamiques et interactives, ainsi qu’en Java, avec le développement d’une API robuste et sécurisée. <br> <br>
+J’ai également appris à intégrer Leaflet dans une application Angular, en optimisant l’affichage des points géolocalisés pour assurer une expérience utilisateur fluide et performante. <br> <br>
+En travaillant avec la Mission Locale, j’ai pu mieux comprendre les besoins d’un organisme public et l’importance de concevoir des outils numériques adaptés aux réalités du terrain.
+                <br> <br>
+            </p>
+
+            
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <p style="margin-left: 410px;" class="section-title">
+            © 2025  - Portfolio. Created for school project 
+          </p>
+
+          <!-- <a href="#" class="btn btn-primary">Try it For Free</a> -->
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
